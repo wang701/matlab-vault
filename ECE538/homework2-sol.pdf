@@ -1,0 +1,575 @@
+%!PS-Adobe-3.0
+%%Title: homework2.m
+%%For: yang
+%%Creator: VIM - Vi IMproved 7.4 (2013 Aug 10)
+%%CreationDate: Mon Nov 16 14:58:51 2015
+%%DocumentData: Clean8Bit
+%%Orientation: Portrait
+%%Pages: (atend)
+%%PageOrder: Ascend
+%%BoundingBox: 61 42 577 752
+%%DocumentMedia: letter 612 792 0 () ()
+%%DocumentNeededResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%DocumentSuppliedResources: procset VIM-Prolog 1.4 1
+%%+ encoding VIM-latin1 1.0 0
+%%Requirements: duplex collate
+%%EndComments
+%%BeginDefaults
+%%PageResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%PageMedia: letter
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset VIM-Prolog
+%%BeginDocument: /usr/share/vim/vim74/print/prolog.ps
+%!PS-Adobe-3.0 Resource-ProcSet
+%%Title: VIM-Prolog
+%%Version: 1.4 1
+%%EndComments
+% Editing of this file is NOT RECOMMENDED.  You run a very good risk of causing
+% all PostScript printing from VIM failing if you do.  PostScript is not called
+% a write-only language for nothing!
+/packedarray where not{userdict begin/setpacking/pop load def/currentpacking
+false def end}{pop}ifelse/CP currentpacking def true setpacking
+/bd{bind def}bind def/ld{load def}bd/ed{exch def}bd/d/def ld
+/db{dict begin}bd/cde{currentdict end}bd
+/T true d/F false d
+/SO null d/sv{/SO save d}bd/re{SO restore}bd
+/L2 systemdict/languagelevel 2 copy known{get exec}{pop pop 1}ifelse 2 ge d
+/m/moveto ld/s/show ld /ms{m s}bd /g/setgray ld/r/setrgbcolor ld/sp{showpage}bd
+/gs/gsave ld/gr/grestore ld/cp/currentpoint ld
+/ul{gs UW setlinewidth cp UO add 2 copy newpath m 3 1 roll add exch lineto
+stroke gr}bd
+/bg{gs r cp BO add 4 -2 roll rectfill gr}bd
+/sl{90 rotate 0 exch translate}bd
+L2{
+/sspd{mark exch{setpagedevice}stopped cleartomark}bd
+/nc{1 db/NumCopies ed cde sspd}bd
+/sps{3 db/Orientation ed[3 1 roll]/PageSize ed/ImagingBBox null d cde sspd}bd
+/dt{2 db/Tumble ed/Duplex ed cde sspd}bd
+/c{1 db/Collate ed cde sspd}bd
+}{
+/nc{/#copies ed}bd
+/sps{statusdict/setpage get exec}bd
+/dt{statusdict/settumble 2 copy known{get exec}{pop pop pop}ifelse
+statusdict/setduplexmode 2 copy known{get exec}{pop pop pop}ifelse}bd
+/c{pop}bd
+}ifelse
+/ffs{findfont exch scalefont d}bd/sf{setfont}bd
+/ref{1 db findfont dup maxlength dict/NFD ed{exch dup/FID ne{exch NFD 3 1 roll
+put}{pop pop}ifelse}forall/Encoding findresource dup length 256 eq{NFD/Encoding
+3 -1 roll put}{pop}ifelse NFD dup/FontType get 3 ne{/CharStrings}{/CharProcs}
+ifelse 2 copy known{2 copy get dup maxlength dict copy[/questiondown/space]{2
+copy known{2 copy get 2 index/.notdef 3 -1 roll put pop exit}if pop}forall put
+}{pop pop}ifelse dup NFD/FontName 3 -1 roll put NFD definefont pop end}bd
+CP setpacking
+(\004)cvn{}bd
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%BeginResource: encoding VIM-latin1
+%%BeginDocument: /usr/share/vim/vim74/print/latin1.ps
+%!PS-Adobe-3.0 Resource-Encoding
+%%Title: VIM-latin1
+%%Version: 1.0 0
+%%EndComments
+/VIM-latin1[
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma /minus /period /slash
+/zero /one /two /three /four /five /six /seven
+/eight /nine /colon /semicolon /less /equal /greater /question
+/at /A /B /C /D /E /F /G
+/H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W
+/X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+/grave /a /b /c /d /e /f /g
+/h /i /j /k /l /m /n /o
+/p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
+/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
+/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
+/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
+/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis]
+/Encoding defineresource pop
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%EndProlog
+%%BeginSetup
+612 792 0 sps
+1 nc
+T F dt
+T c
+%%IncludeResource: font Courier
+/_F0 /VIM-latin1 /Courier ref
+/F0 10 /_F0 ffs
+%%IncludeResource: font Courier-Bold
+/_F1 /VIM-latin1 /Courier-Bold ref
+/F1 10 /_F1 ffs
+%%IncludeResource: font Courier-Oblique
+/_F2 /VIM-latin1 /Courier-Oblique ref
+/F2 10 /_F2 ffs
+%%IncludeResource: font Courier-BoldOblique
+/_F3 /VIM-latin1 /Courier-BoldOblique ref
+/F3 10 /_F3 ffs
+/UO -1 d
+/UW 0.5 d
+/BO -2.5 d
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(homework2.m                                                                     Page 1)61.2 744.9 ms
+F0 sf
+(% ECE 538 MATLAB homework 2)61.2 724.9 ms
+(% Part II)61.2 704.9 ms
+(% A\))61.2 694.9 ms
+(% The Hadamard matrix of dimension 8 does not match matrix H in terms of)61.2 684.9 ms
+(% rows and columns)61.2 674.9 ms
+(clear all; close all;)61.2 664.9 ms
+(x=randn\(1,128\);)61.2 654.9 ms
+(M=8;)61.2 644.9 ms
+(h0=[1 1]; h1=[1 -1];)61.2 634.9 ms
+(h00=[1 0 1];   h10=[1 0 -1];)61.2 624.9 ms
+(h000=[1 0 0 0 1]; h100=[1 0 0 0 -1];)61.2 614.9 ms
+(H_tmp=conv\(h0,h00\); H\(1,:\)=conv\(H_tmp,h000\); G\(1,:\)=H\(1,:\);)61.2 604.9 ms
+(H_tmp=conv\(h0,h00\); H\(2,:\)=conv\(H_tmp,h100\); G\(2,:\)=-H\(2,:\);)61.2 594.9 ms
+(H_tmp=conv\(h0,h10\); H\(3,:\)=conv\(H_tmp,h000\); G\(3,:\)=-H\(3,:\);)61.2 584.9 ms
+(H_tmp=conv\(h0,h10\); H\(4,:\)=conv\(H_tmp,h100\); G\(4,:\)=H\(4,:\);)61.2 574.9 ms
+(H_tmp=conv\(h1,h00\); H\(5,:\)=conv\(H_tmp,h000\); G\(5,:\)=-H\(5,:\);)61.2 564.9 ms
+(H_tmp=conv\(h1,h00\); H\(6,:\)=conv\(H_tmp,h100\); G\(6,:\)=H\(6,:\);)61.2 554.9 ms
+(H_tmp=conv\(h1,h10\); H\(7,:\)=conv\(H_tmp,h000\); G\(7,:\)=H\(7,:\);)61.2 544.9 ms
+(H_tmp=conv\(h1,h10\); H\(8,:\)=conv\(H_tmp,h100\); G\(8,:\)=-H\(8,:\);)61.2 534.9 ms
+(% i\)   Please see attached for figure 1a\))61.2 524.9 ms
+(for ind=1:M)61.2 514.9 ms
+(hf\(ind,:\)=abs\(fftshift\(fft\(H\(ind,:\),512\)\)\);)61.2 504.9 ms
+(end)61.2 494.9 ms
+(domega=2*pi/512;)61.2 484.9 ms
+(omega=-pi:domega:pi-domega;)61.2 474.9 ms
+(figure\(1\);)61.2 464.9 ms
+(plot\(omega,hf\(1,:\),omega,hf\(2,:\), ...)61.2 454.9 ms
+(     omega,hf\(3,:\),omega,hf\(4,:\), ...)61.2 444.9 ms
+(     omega,hf\(5,:\),omega,hf\(6,:\), ...)61.2 434.9 ms
+(     omega,hf\(7,:\),omega,hf\(8,:\)\);)61.2 424.9 ms
+(axis\([-pi pi 0 max\(hf\(1,:\)\)]\))61.2 414.9 ms
+(legend\('H0\(w\)','H1\(w\)','H2\(w\)','H3\(w\)','H4\(w\)','H5\(w\)','H6\(w\)','H7\(w\)'\);)61.2 404.9 ms
+(title\('fig 1a: Frequency Response of h0[n] through h7[n]'\);)61.2 394.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 384.9 ms
+(% ii\)  Please see attached for figure 1b\))61.2 374.9 ms
+(for ind=1:M)61.2 364.9 ms
+(gf\(ind,:\)=abs\(fftshift\(fft\(G\(ind,:\),512\)\)\);)61.2 354.9 ms
+(end)61.2 344.9 ms
+(domega=2*pi/512;)61.2 334.9 ms
+(omega=-pi:domega:pi-domega;)61.2 324.9 ms
+(figure\(2\);)61.2 314.9 ms
+(plot\(omega,gf\(1,:\),omega,gf\(2,:\), ...)61.2 304.9 ms
+(     omega,gf\(3,:\),omega,gf\(4,:\), ...)61.2 294.9 ms
+(     omega,gf\(5,:\),omega,gf\(6,:\), ...)61.2 284.9 ms
+(     omega,gf\(7,:\),omega,gf\(8,:\)\);)61.2 274.9 ms
+(axis\([-pi pi 0 max\(gf\(1,:\)\)]\))61.2 264.9 ms
+(legend\('G0\(w\)','G1\(w\)','G2\(w\)','G3\(w\)','G4\(w\)','G5\(w\)','G6\(w\)','G7\(w\)'\);)61.2 254.9 ms
+(title\('fig 1b: Frequency Response of g0[n] through g7[n]'\);)61.2 244.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 234.9 ms
+(% iii\))61.2 224.9 ms
+(% H*H' =)61.2 214.9 ms
+(%       8     0     0     0     0     0     0     0)61.2 204.9 ms
+(%       0     8     0     0     0     0     0     0)61.2 194.9 ms
+(%       0     0     8     0     0     0     0     0)61.2 184.9 ms
+(%       0     0     0     8     0     0     0     0 )61.2 174.9 ms
+(%       0     0     0     0     8     0     0     0)61.2 164.9 ms
+(%       0     0     0     0     0     8     0     0)61.2 154.9 ms
+(%       0     0     0     0     0     0     8     0)61.2 144.9 ms
+(%       0     0     0     8     0     0     0     8     Table 1)61.2 134.9 ms
+(% iv\) Please see attached figure 1c\))61.2 124.9 ms
+(% v\)  Please see attached figure 1d\))61.2 114.9 ms
+(for m=1:M;)61.2 104.9 ms
+(W\(m,:\)=conv\(x,H\(m,:\)\);)61.2 94.9 ms
+(X\(m,:\)=W\(m,1:M:length\(W\(m,:\)\)\);)61.2 84.9 ms
+(end)61.2 74.9 ms
+(for m=1:M;)61.2 64.9 ms
+(Z\(m,:\)=zeros\(1,M*length\(X\(m,:\)\)\);)61.2 54.9 ms
+(Z\(m,1:M:length\(Z\(m,:\)\)\)=X\(m,:\);)61.2 44.9 ms
+re sp
+%%PageTrailer
+%%Page: 2 2
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(homework2.m                                                                     Page 2)61.2 744.9 ms
+F0 sf
+(Y\(m,:\)=conv\(Z\(m,:\),G\(m,:\)\);)61.2 724.9 ms
+(end)61.2 714.9 ms
+(y=zeros\(1,length\(Y\(1,:\)\)\);)61.2 704.9 ms
+(for m=1:M;)61.2 694.9 ms
+(y=y+Y\(m,:\);)61.2 684.9 ms
+(end)61.2 674.9 ms
+(domega=2*pi/1024;)61.2 664.9 ms
+(omega=-pi:domega:pi-domega;)61.2 654.9 ms
+(yf1=abs\(fftshift\(fft\(x,1024\)\)\);)61.2 644.9 ms
+(yf2=abs\(fftshift\(fft\(y,1024\)\)\);)61.2 634.9 ms
+(figure\(3\);)61.2 624.9 ms
+(plot\(omega,yf1,'Linewidth',1\))61.2 614.9 ms
+(axis\([-pi pi 0 max\(yf1\)]\))61.2 604.9 ms
+(title\('fig 1c: DTFT of Gaussian Random Process \(mean = 0 with unit power\)'\);)61.2 594.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 584.9 ms
+(figure\(4\);)61.2 574.9 ms
+(plot\(omega,yf2,'Linewidth',1\))61.2 564.9 ms
+(axis\([-pi pi 0 max\(yf2\)]\))61.2 554.9 ms
+(title\('fig 1d: DTFT of output of Gaussian Random Process'\);)61.2 544.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 534.9 ms
+(% B\))61.2 514.9 ms
+(N=16; beta=0.35;)61.2 504.9 ms
+(n=-N:\(N-1\);)61.2 494.9 ms
+(n=n+0.5;)61.2 484.9 ms
+(h=2*beta*cos\(\(1+beta\)*pi*n/2\)./\(pi*\(1-4*beta^2*n.^2\)\);)61.2 474.9 ms
+(h=h+sin\(\(1-beta\)*pi*n/2\)./\(pi*\(n-4*beta^2*n.^3\)\);)61.2 464.9 ms
+(M=8;)61.2 454.9 ms
+(h0=h;)61.2 444.9 ms
+(h1=\(-1\).^\(0:\(length\(n\)-1\)\).*h; )61.2 434.9 ms
+(h00=zeros\(1,2*length\(h\)\); h10=h00;)61.2 424.9 ms
+(h00\(1,1:2:length\(h00\)\)=h0;)61.2 414.9 ms
+(h10\(1,1:2:length\(h10\)\)=h1;)61.2 404.9 ms
+(h000=zeros\(1,4*length\(h\)\); h100=h000;)61.2 394.9 ms
+(h000\(1,1:4:length\(h000\)\)=h0;)61.2 384.9 ms
+(h100\(1,1:4:length\(h100\)\)=h1;)61.2 374.9 ms
+(H_tmp=conv\(h0,h00\); H_b\(1,:\)=conv\(H_tmp,h000\); G_b\(1,:\)=H_b\(1,:\);)61.2 364.9 ms
+(H_tmp=conv\(h0,h00\); H_b\(2,:\)=conv\(H_tmp,h100\); G_b\(2,:\)=-H_b\(2,:\);)61.2 354.9 ms
+(H_tmp=conv\(h0,h10\); H_b\(3,:\)=conv\(H_tmp,h000\); G_b\(3,:\)=-H_b\(3,:\);)61.2 344.9 ms
+(H_tmp=conv\(h0,h10\); H_b\(4,:\)=conv\(H_tmp,h100\); G_b\(4,:\)=H_b\(4,:\);)61.2 334.9 ms
+(H_tmp=conv\(h1,h00\); H_b\(5,:\)=conv\(H_tmp,h000\); G_b\(5,:\)=-H_b\(5,:\);)61.2 324.9 ms
+(H_tmp=conv\(h1,h00\); H_b\(6,:\)=conv\(H_tmp,h100\); G_b\(6,:\)=H_b\(6,:\);)61.2 314.9 ms
+(H_tmp=conv\(h1,h10\); H_b\(7,:\)=conv\(H_tmp,h000\); G_b\(7,:\)=H_b\(7,:\);)61.2 304.9 ms
+(H_tmp=conv\(h1,h10\); H_b\(8,:\)=conv\(H_tmp,h100\); G_b\(8,:\)=-H_b\(8,:\);)61.2 294.9 ms
+(% i\)   Please see attached for figure 2a\))61.2 284.9 ms
+(for ind=1:M)61.2 274.9 ms
+(hf\(ind,:\)=abs\(fftshift\(fft\(H_b\(ind,:\),512\)\)\);)61.2 264.9 ms
+(end)61.2 254.9 ms
+(domega=2*pi/512;)61.2 244.9 ms
+(omega=-pi:domega:pi-domega;)61.2 234.9 ms
+(figure\(5\);)61.2 224.9 ms
+(plot\(omega,hf\(1,:\),omega,hf\(2,:\), ...)61.2 214.9 ms
+(     omega,hf\(3,:\),omega,hf\(4,:\), ...)61.2 204.9 ms
+(     omega,hf\(5,:\),omega,hf\(6,:\), ...)61.2 194.9 ms
+(     omega,hf\(7,:\),omega,hf\(8,:\)\);)61.2 184.9 ms
+(axis\([-pi pi 0 max\(hf\(1,:\)\)]\))61.2 174.9 ms
+(legend\('H0\(w\)','H1\(w\)','H2\(w\)','H3\(w\)','H4\(w\)','H5\(w\)','H6\(w\)','H7\(w\)'\);)61.2 164.9 ms
+(title\('fig 2a: Frequency Response of h0[n] through h7[n]'\);)61.2 154.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 144.9 ms
+(% ii\)  Please see attached for figure 2b\))61.2 134.9 ms
+(for ind=1:M)61.2 124.9 ms
+(gf\(ind,:\)=abs\(fftshift\(fft\(G_b\(ind,:\),512\)\)\);)61.2 114.9 ms
+(end)61.2 104.9 ms
+(domega=2*pi/512;)61.2 94.9 ms
+(omega=-pi:domega:pi-domega;)61.2 84.9 ms
+(figure\(6\);)61.2 74.9 ms
+(plot\(omega,gf\(1,:\),omega,gf\(2,:\), ...)61.2 64.9 ms
+(     omega,gf\(3,:\),omega,gf\(4,:\), ...)61.2 54.9 ms
+(     omega,gf\(5,:\),omega,gf\(6,:\), ...)61.2 44.9 ms
+re sp
+%%PageTrailer
+%%Page: 3 3
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(homework2.m                                                                     Page 3)61.2 744.9 ms
+F0 sf
+(     omega,gf\(7,:\),omega,gf\(8,:\)\);)61.2 724.9 ms
+(axis\([-pi pi 0 max\(gf\(1,:\)\)]\))61.2 714.9 ms
+(legend\('G0\(w\)','G1\(w\)','G2\(w\)','G3\(w\)','G4\(w\)','G5\(w\)','G6\(w\)','G7\(w\)'\);)61.2 704.9 ms
+(title\('fig 2b: Frequency Response of g0[n] through g7[n]'\);)61.2 694.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 684.9 ms
+(% iii\))61.2 674.9 ms
+(% H_b*H_b' =)61.2 664.9 ms
+(%    0.1250    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000)61.2 654.9 ms
+(%    0.0000    0.1250   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000)61.2 644.9 ms
+(%    0.0000   -0.0000    0.1250    0.0000   -0.0000    0.0000    0.0000    0.0000)61.2 634.9 ms
+(%    0.0000    0.0000    0.0000    0.1249   -0.0000    0.0000    0.0000    0.0000)61.2 624.9 ms
+(%    0.0000    0.0000   -0.0000   -0.0000    0.1250    0.0000    0.0000    0.0000)61.2 614.9 ms
+(%    0.0000    0.0000    0.0000    0.0000    0.0000    0.1250   -0.0000    0.0000)61.2 604.9 ms
+(%   -0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.1250    0.0000)61.2 594.9 ms
+(%   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.1249)61.2 584.9 ms
+(%                                                                         Table 2     )61.2 574.9 ms
+(  )61.2 564.9 ms
+(% iv\) Please see attached figure 2c\))61.2 554.9 ms
+(% v\)  Please see attached figure 2d\))61.2 544.9 ms
+(for m=1:M;)61.2 534.9 ms
+(W_b\(m,:\)=conv\(x,H_b\(m,:\)\);)61.2 524.9 ms
+(X_b\(m,:\)=W_b\(m,1:M:length\(W_b\(m,:\)\)\);)61.2 514.9 ms
+(end)61.2 504.9 ms
+(for m=1:M;)61.2 494.9 ms
+(Z_b\(m,:\)=zeros\(1,M*length\(X_b\(m,:\)\)\);)61.2 484.9 ms
+(Z_b\(m,1:M:length\(Z_b\(m,:\)\)\)=X_b\(m,:\);)61.2 474.9 ms
+(Y_b\(m,:\)=conv\(Z_b\(m,:\),G_b\(m,:\)\);)61.2 464.9 ms
+(end)61.2 454.9 ms
+(y_b=zeros\(1,length\(Y_b\(1,:\)\)\);)61.2 444.9 ms
+(for m=1:M;)61.2 434.9 ms
+(y_b=y_b+Y_b\(m,:\);)61.2 424.9 ms
+(end)61.2 414.9 ms
+(domega=2*pi/1024;)61.2 404.9 ms
+(omega=-pi:domega:pi-domega;)61.2 394.9 ms
+(yf1=abs\(fftshift\(fft\(x,1024\)\)\);)61.2 384.9 ms
+(yf2=M*abs\(fftshift\(fft\(y_b,1024\)\)\);)61.2 374.9 ms
+(figure\(7\);)61.2 364.9 ms
+(plot\(omega,yf1,'Linewidth',1\))61.2 354.9 ms
+(axis\([-pi pi 0 max\(yf1\)]\))61.2 344.9 ms
+(title\('fig 2c: DTFT of Gaussian Random Process \(mean = 0 with unit power\)'\);)61.2 334.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 324.9 ms
+(figure\(8\);)61.2 314.9 ms
+(plot\(omega,yf2,'Linewidth',1\))61.2 304.9 ms
+(axis\([-pi pi 0 max\(yf2\)]\))61.2 294.9 ms
+(title\('fig 2d: DTFT of output of Gaussian Random Process'\);)61.2 284.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 274.9 ms
+(% C\))61.2 254.9 ms
+(N=24; beta=0.1;)61.2 244.9 ms
+(n=-N:\(N-1\);)61.2 234.9 ms
+(n=n+0.5;)61.2 224.9 ms
+(h=2*beta*cos\(\(1+beta\)*pi*n/2\)./\(pi*\(1-4*beta^2*n.^2\)\);)61.2 214.9 ms
+(h=h+sin\(\(1-beta\)*pi*n/2\)./\(pi*\(n-4*beta^2*n.^3\)\);)61.2 204.9 ms
+(M=8;)61.2 194.9 ms
+(h0=h;)61.2 184.9 ms
+(h1=\(-1\).^\(0:\(length\(n\)-1\)\).*h; )61.2 174.9 ms
+(h00=zeros\(1,2*length\(h\)\); h10=h00;)61.2 164.9 ms
+(h00\(1,1:2:length\(h00\)\)=h0;)61.2 154.9 ms
+(h10\(1,1:2:length\(h10\)\)=h1;)61.2 144.9 ms
+(h000=zeros\(1,4*length\(h\)\); h100=h000;)61.2 134.9 ms
+(h000\(1,1:4:length\(h000\)\)=h0;)61.2 124.9 ms
+(h100\(1,1:4:length\(h100\)\)=h1;)61.2 114.9 ms
+(H_tmp=conv\(h0,h00\); H_c\(1,:\)=conv\(H_tmp,h000\); G_c\(1,:\)=H_c\(1,:\);)61.2 104.9 ms
+(H_tmp=conv\(h0,h00\); H_c\(2,:\)=conv\(H_tmp,h100\); G_c\(2,:\)=-H_c\(2,:\);)61.2 94.9 ms
+(H_tmp=conv\(h0,h10\); H_c\(3,:\)=conv\(H_tmp,h000\); G_c\(3,:\)=-H_c\(3,:\);)61.2 84.9 ms
+(H_tmp=conv\(h0,h10\); H_c\(4,:\)=conv\(H_tmp,h100\); G_c\(4,:\)=H_c\(4,:\);)61.2 74.9 ms
+(H_tmp=conv\(h1,h00\); H_c\(5,:\)=conv\(H_tmp,h000\); G_c\(5,:\)=-H_c\(5,:\);)61.2 64.9 ms
+(H_tmp=conv\(h1,h00\); H_c\(6,:\)=conv\(H_tmp,h100\); G_c\(6,:\)=H_c\(6,:\);)61.2 54.9 ms
+(H_tmp=conv\(h1,h10\); H_c\(7,:\)=conv\(H_tmp,h000\); G_c\(7,:\)=H_c\(7,:\);)61.2 44.9 ms
+re sp
+%%PageTrailer
+%%Page: 4 4
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(homework2.m                                                                     Page 4)61.2 744.9 ms
+F0 sf
+(H_tmp=conv\(h1,h10\); H_c\(8,:\)=conv\(H_tmp,h100\); G_c\(8,:\)=-H_c\(8,:\);)61.2 724.9 ms
+(% i\)   Please see attached for figure 3a\))61.2 714.9 ms
+(for ind=1:M)61.2 704.9 ms
+(hf\(ind,:\)=abs\(fftshift\(fft\(H_c\(ind,:\),512\)\)\);)61.2 694.9 ms
+(end)61.2 684.9 ms
+(domega=2*pi/512;)61.2 674.9 ms
+(omega=-pi:domega:pi-domega;)61.2 664.9 ms
+(figure\(9\);)61.2 654.9 ms
+(plot\(omega,hf\(1,:\),omega,hf\(2,:\), ...)61.2 644.9 ms
+(     omega,hf\(3,:\),omega,hf\(4,:\), ...)61.2 634.9 ms
+(     omega,hf\(5,:\),omega,hf\(6,:\), ...)61.2 624.9 ms
+(     omega,hf\(7,:\),omega,hf\(8,:\)\);)61.2 614.9 ms
+(axis\([-pi pi 0 max\(hf\(1,:\)\)]\))61.2 604.9 ms
+(legend\('H0\(w\)','H1\(w\)','H2\(w\)','H3\(w\)','H4\(w\)','H5\(w\)','H6\(w\)','H7\(w\)'\);)61.2 594.9 ms
+(title\('fig 3a: Frequency Response of h0[n] through h7[n]'\);)61.2 584.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 574.9 ms
+(% ii\)  Please see attached for figure 3b\))61.2 564.9 ms
+(for ind=1:M)61.2 554.9 ms
+(gf\(ind,:\)=abs\(fftshift\(fft\(G_c\(ind,:\),512\)\)\);)61.2 544.9 ms
+(end)61.2 534.9 ms
+(domega=2*pi/512;)61.2 524.9 ms
+(omega=-pi:domega:pi-domega;)61.2 514.9 ms
+(figure\(10\);)61.2 504.9 ms
+(plot\(omega,gf\(1,:\),omega,gf\(2,:\), ...)61.2 494.9 ms
+(     omega,gf\(3,:\),omega,gf\(4,:\), ...)61.2 484.9 ms
+(     omega,gf\(5,:\),omega,gf\(6,:\), ...)61.2 474.9 ms
+(     omega,gf\(7,:\),omega,gf\(8,:\)\);)61.2 464.9 ms
+(axis\([-pi pi 0 max\(gf\(1,:\)\)]\))61.2 454.9 ms
+(legend\('G0\(w\)','G1\(w\)','G2\(w\)','G3\(w\)','G4\(w\)','G5\(w\)','G6\(w\)','G7\(w\)'\);)61.2 444.9 ms
+(title\('fig 3b: Frequency Response of g0[n] through g7[n]'\);)61.2 434.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 424.9 ms
+(% iii\))61.2 414.9 ms
+(% H_c*H_c' =)61.2 404.9 ms
+(%    0.1250   -0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000)61.2 394.9 ms
+(%   -0.0000    0.1250   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000)61.2 384.9 ms
+(%   -0.0000   -0.0000    0.1250   -0.0000   -0.0000    0.0000   -0.0000   -0.0000)61.2 374.9 ms
+(%    0.0000   -0.0000   -0.0000    0.1249   -0.0000    0.0000   -0.0000    0.0000)61.2 364.9 ms
+(%    0.0000    0.0000   -0.0000   -0.0000    0.1250   -0.0000   -0.0000    0.0000)61.2 354.9 ms
+(%    0.0000    0.0000    0.0000    0.0000   -0.0000    0.1250   -0.0000   -0.0000)61.2 344.9 ms
+(%   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.1250   -0.0000)61.2 334.9 ms
+(%   -0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000    0.1249)61.2 324.9 ms
+(%                                                                         Table 3)61.2 314.9 ms
+(% iv\) Please see attached figure 2c\))61.2 304.9 ms
+(% v\)  Please see attached figure 2d\))61.2 294.9 ms
+(for m=1:M;)61.2 284.9 ms
+(W_c\(m,:\)=conv\(x,H_c\(m,:\)\);)61.2 274.9 ms
+(X_c\(m,:\)=W_c\(m,1:M:length\(W_c\(m,:\)\)\);)61.2 264.9 ms
+(end)61.2 254.9 ms
+(for m=1:M;)61.2 244.9 ms
+(Z_c\(m,:\)=zeros\(1,M*length\(X_c\(m,:\)\)\);)61.2 234.9 ms
+(Z_c\(m,1:M:length\(Z_c\(m,:\)\)\)=X_c\(m,:\);)61.2 224.9 ms
+(Y_c\(m,:\)=conv\(Z_c\(m,:\),G_c\(m,:\)\);)61.2 214.9 ms
+(end)61.2 204.9 ms
+(y_c=zeros\(1,length\(Y_c\(1,:\)\)\);)61.2 194.9 ms
+(for m=1:M;)61.2 184.9 ms
+(y_c=y_c+Y_c\(m,:\);)61.2 174.9 ms
+(end)61.2 164.9 ms
+(domega=2*pi/1024;)61.2 154.9 ms
+(omega=-pi:domega:pi-domega;)61.2 144.9 ms
+(yf1=abs\(fftshift\(fft\(x,1024\)\)\);)61.2 134.9 ms
+(yf2=M*abs\(fftshift\(fft\(y_c,1024\)\)\);)61.2 124.9 ms
+(figure\(11\);)61.2 114.9 ms
+(plot\(omega,yf1,'Linewidth',1\))61.2 104.9 ms
+(axis\([-pi pi 0 max\(yf1\)]\))61.2 94.9 ms
+(title\('fig 3c: DTFT of Gaussian Random Process \(mean = 0 with unit power\)'\);)61.2 84.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 74.9 ms
+(figure\(12\);)61.2 64.9 ms
+(plot\(omega,yf2,'Linewidth',1\))61.2 54.9 ms
+(axis\([-pi pi 0 max\(yf2\)]\))61.2 44.9 ms
+re sp
+%%PageTrailer
+%%Page: 5 5
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(homework2.m                                                                     Page 5)61.2 744.9 ms
+F0 sf
+(title\('fig 3d: DTFT of output of Gaussian Random Process'\);)61.2 724.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 714.9 ms
+(% D\))61.2 694.9 ms
+(h0_d=[1 i]; h1_d=[1 -i];)61.2 684.9 ms
+(h00_d=[1 0 i];   h10_d=[1 0 -i];)61.2 674.9 ms
+(h000_d=[1 0 0 0 i]; h100_d=[1 0 0 0 -i];)61.2 664.9 ms
+(H_tmp=conv\(h0_d,h00_d\); H_d\(1,:\)=conv\(H_tmp,h000_d\); G_d\(1,:\)=H_d\(1,:\);)61.2 654.9 ms
+(H_tmp=conv\(h0_d,h00_d\); H_d\(2,:\)=conv\(H_tmp,h100_d\); G_d\(2,:\)=-H_d\(2,:\);)61.2 644.9 ms
+(H_tmp=conv\(h0_d,h10_d\); H_d\(3,:\)=conv\(H_tmp,h000_d\); G_d\(3,:\)=-H_d\(3,:\);)61.2 634.9 ms
+(H_tmp=conv\(h0_d,h10_d\); H_d\(4,:\)=conv\(H_tmp,h100_d\); G_d\(4,:\)=H_d\(4,:\);)61.2 624.9 ms
+(H_tmp=conv\(h1_d,h00_d\); H_d\(5,:\)=conv\(H_tmp,h000_d\); G_d\(5,:\)=-H_d\(5,:\);)61.2 614.9 ms
+(H_tmp=conv\(h1_d,h00_d\); H_d\(6,:\)=conv\(H_tmp,h100_d\); G_d\(6,:\)=H_d\(6,:\);)61.2 604.9 ms
+(H_tmp=conv\(h1_d,h10_d\); H_d\(7,:\)=conv\(H_tmp,h000_d\); G_d\(7,:\)=H_d\(7,:\);)61.2 594.9 ms
+(H_tmp=conv\(h1_d,h10_d\); H_d\(8,:\)=conv\(H_tmp,h100_d\); G_d\(8,:\)=-H_d\(8,:\);)61.2 584.9 ms
+(% i\)   Please see attached for figure 4a\))61.2 574.9 ms
+(for ind=1:M)61.2 564.9 ms
+(hf\(ind,:\)=abs\(fftshift\(fft\(H_d\(ind,:\),512\)\)\);)61.2 554.9 ms
+(end)61.2 544.9 ms
+(domega=2*pi/512;)61.2 534.9 ms
+(omega=-pi:domega:pi-domega;)61.2 524.9 ms
+(figure\(13\);)61.2 514.9 ms
+(plot\(omega,hf\(1,:\),omega,hf\(2,:\), ...)61.2 504.9 ms
+(     omega,hf\(3,:\),omega,hf\(4,:\), ...)61.2 494.9 ms
+(     omega,hf\(5,:\),omega,hf\(6,:\), ...)61.2 484.9 ms
+(     omega,hf\(7,:\),omega,hf\(8,:\)\);)61.2 474.9 ms
+(axis\([-pi pi 0 max\(hf\(1,:\)\)]\))61.2 464.9 ms
+(legend\('H0\(w\)','H1\(w\)','H2\(w\)','H3\(w\)','H4\(w\)','H5\(w\)','H6\(w\)','H7\(w\)'\);)61.2 454.9 ms
+(title\('fig 4a: Frequency Response of h0[n] through h7[n]'\);)61.2 444.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 434.9 ms
+(% ii\)  Please see attached for figure 4b\))61.2 424.9 ms
+(for ind=1:M)61.2 414.9 ms
+(gf\(ind,:\)=abs\(fftshift\(fft\(G_d\(ind,:\),512\)\)\);)61.2 404.9 ms
+(end)61.2 394.9 ms
+(domega=2*pi/512;)61.2 384.9 ms
+(omega=-pi:domega:pi-domega;)61.2 374.9 ms
+(figure\(14\);)61.2 364.9 ms
+(plot\(omega,gf\(1,:\),omega,gf\(2,:\), ...)61.2 354.9 ms
+(     omega,gf\(3,:\),omega,gf\(4,:\), ...)61.2 344.9 ms
+(     omega,gf\(5,:\),omega,gf\(6,:\), ...)61.2 334.9 ms
+(     omega,gf\(7,:\),omega,gf\(8,:\)\);)61.2 324.9 ms
+(axis\([-pi pi 0 max\(gf\(1,:\)\)]\))61.2 314.9 ms
+(legend\('G0\(w\)','G1\(w\)','G2\(w\)','G3\(w\)','G4\(w\)','G5\(w\)','G6\(w\)','G7\(w\)'\);)61.2 304.9 ms
+(title\('fig 4b: Frequency Response of g0[n] through g7[n]'\);)61.2 294.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 284.9 ms
+(% iii\))61.2 274.9 ms
+(% H*H' =)61.2 264.9 ms
+(%       8     0     0     0     0     0     0     0)61.2 254.9 ms
+(%       0     8     0     0     0     0     0     0)61.2 244.9 ms
+(%       0     0     8     0     0     0     0     0)61.2 234.9 ms
+(%       0     0     0     8     0     0     0     0 )61.2 224.9 ms
+(%       0     0     0     0     8     0     0     0)61.2 214.9 ms
+(%       0     0     0     0     0     8     0     0)61.2 204.9 ms
+(%       0     0     0     0     0     0     8     0)61.2 194.9 ms
+(%       0     0     0     8     0     0     0     8     Table 4)61.2 184.9 ms
+(% iv\) Please see attached figure 4c\))61.2 174.9 ms
+(% v\)  Please see attached figure 4d\))61.2 164.9 ms
+(for m=1:M;)61.2 154.9 ms
+(W_d\(m,:\)=conv\(x,H_d\(m,:\)\);)61.2 144.9 ms
+(X_d\(m,:\)=W_d\(m,1:M:length\(W_d\(m,:\)\)\);)61.2 134.9 ms
+(end)61.2 124.9 ms
+(for m=1:M;)61.2 114.9 ms
+(Z_d\(m,:\)=zeros\(1,M*length\(X_d\(m,:\)\)\);)61.2 104.9 ms
+(Z_d\(m,1:M:length\(Z_d\(m,:\)\)\)=X_d\(m,:\);)61.2 94.9 ms
+(Y_d\(m,:\)=conv\(Z_d\(m,:\),G_d\(m,:\)\);)61.2 84.9 ms
+(end)61.2 74.9 ms
+(y_d=zeros\(1,length\(Y_d\(1,:\)\)\);)61.2 64.9 ms
+(for m=1:M;)61.2 54.9 ms
+(y_d=y_d+Y_d\(m,:\);)61.2 44.9 ms
+re sp
+%%PageTrailer
+%%Page: 6 6
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(homework2.m                                                                     Page 6)61.2 744.9 ms
+F0 sf
+(end)61.2 724.9 ms
+(domega=2*pi/1024;)61.2 714.9 ms
+(omega=-pi:domega:pi-domega;)61.2 704.9 ms
+(yf1=abs\(fftshift\(fft\(x,1024\)\)\);)61.2 694.9 ms
+(yf2=abs\(fftshift\(fft\(y_d,1024\)\)\);)61.2 684.9 ms
+(figure\(15\);)61.2 674.9 ms
+(plot\(omega,yf1,'Linewidth',1\))61.2 664.9 ms
+(axis\([-pi pi 0 max\(yf1\)]\))61.2 654.9 ms
+(title\('fig 4c: DTFT of Gaussian Random Process \(mean = 0 with unit power\)'\);)61.2 644.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 634.9 ms
+(figure\(16\);)61.2 624.9 ms
+(plot\(omega,yf2,'Linewidth',1\))61.2 614.9 ms
+(axis\([-pi pi 0 max\(yf2\)]\))61.2 604.9 ms
+(title\('fig 4d: DTFT of output of Gaussian Random Process'\);)61.2 594.9 ms
+(xlabel\('\\omega \(radians/s\)'\);)61.2 584.9 ms
+(% Observations & Conclusion:)61.2 564.9 ms
+(% With N-channel PR filter banks, the original signal could be reconstructed)61.2 554.9 ms
+(% perfertly at the output of the filters. With two-tap halfband filter and)61.2 544.9 ms
+(% tree structure, the magnitudes at the output of the filters do not agree)61.2 534.9 ms
+(% with the original inputs since the two-tap filters are not constructed nicely)61.2 524.9 ms
+(% to scale down the magnited at the synthesis side. However, with a raise-)61.2 514.9 ms
+(% cosine halfband filter and tree structure, the magnitudes at the output of the)61.2 504.9 ms
+(% filters match the original input.)61.2 494.9 ms
+re sp
+%%PageTrailer
+%%Trailer
+%%Pages: 6
+%%EOF
+

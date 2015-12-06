@@ -2,6 +2,8 @@
 
 % Part II
 % A)
+% The Hadamard matrix of dimension 8 does not match matrix H in terms of
+% rows and columns
 clear all; close all;
 x=randn(1,128);
 M=8;
@@ -28,6 +30,7 @@ plot(omega,hf(1,:),omega,hf(2,:), ...
      omega,hf(5,:),omega,hf(6,:), ...
      omega,hf(7,:),omega,hf(8,:));
 axis([-pi pi 0 max(hf(1,:))])
+legend('H0(w)','H1(w)','H2(w)','H3(w)','H4(w)','H5(w)','H6(w)','H7(w)');
 title('fig 1a: Frequency Response of h0[n] through h7[n]');
 xlabel('\omega (radians/s)');
 % ii)  Please see attached for figure 1b)
@@ -42,6 +45,7 @@ plot(omega,gf(1,:),omega,gf(2,:), ...
      omega,gf(5,:),omega,gf(6,:), ...
      omega,gf(7,:),omega,gf(8,:));
 axis([-pi pi 0 max(gf(1,:))])
+legend('G0(w)','G1(w)','G2(w)','G3(w)','G4(w)','G5(w)','G6(w)','G7(w)');
 title('fig 1b: Frequency Response of g0[n] through g7[n]');
 xlabel('\omega (radians/s)');
 % iii)
@@ -72,7 +76,7 @@ end
 domega=2*pi/1024;
 omega=-pi:domega:pi-domega;
 yf1=abs(fftshift(fft(x,1024)));
-yf2=M*abs(fftshift(fft(y,1024)));
+yf2=abs(fftshift(fft(y,1024)));
 figure(3);
 plot(omega,yf1,'Linewidth',1)
 axis([-pi pi 0 max(yf1)])
@@ -119,6 +123,7 @@ plot(omega,hf(1,:),omega,hf(2,:), ...
      omega,hf(5,:),omega,hf(6,:), ...
      omega,hf(7,:),omega,hf(8,:));
 axis([-pi pi 0 max(hf(1,:))])
+legend('H0(w)','H1(w)','H2(w)','H3(w)','H4(w)','H5(w)','H6(w)','H7(w)');
 title('fig 2a: Frequency Response of h0[n] through h7[n]');
 xlabel('\omega (radians/s)');
 % ii)  Please see attached for figure 2b)
@@ -133,6 +138,7 @@ plot(omega,gf(1,:),omega,gf(2,:), ...
      omega,gf(5,:),omega,gf(6,:), ...
      omega,gf(7,:),omega,gf(8,:));
 axis([-pi pi 0 max(gf(1,:))])
+legend('G0(w)','G1(w)','G2(w)','G3(w)','G4(w)','G5(w)','G6(w)','G7(w)');
 title('fig 2b: Frequency Response of g0[n] through g7[n]');
 xlabel('\omega (radians/s)');
 % iii)
@@ -144,7 +150,8 @@ xlabel('\omega (radians/s)');
 %    0.0000    0.0000   -0.0000   -0.0000    0.1250    0.0000    0.0000    0.0000
 %    0.0000    0.0000    0.0000    0.0000    0.0000    0.1250   -0.0000    0.0000
 %   -0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.1250    0.0000
-%   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.1249	Table 2
+%   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.1249
+%									  Table 2	
 % iv) Please see attached figure 2c)
 % v)  Please see attached figure 2d)
 for m=1:M;
@@ -210,6 +217,7 @@ plot(omega,hf(1,:),omega,hf(2,:), ...
      omega,hf(5,:),omega,hf(6,:), ...
      omega,hf(7,:),omega,hf(8,:));
 axis([-pi pi 0 max(hf(1,:))])
+legend('H0(w)','H1(w)','H2(w)','H3(w)','H4(w)','H5(w)','H6(w)','H7(w)');
 title('fig 3a: Frequency Response of h0[n] through h7[n]');
 xlabel('\omega (radians/s)');
 % ii)  Please see attached for figure 3b)
@@ -224,6 +232,7 @@ plot(omega,gf(1,:),omega,gf(2,:), ...
      omega,gf(5,:),omega,gf(6,:), ...
      omega,gf(7,:),omega,gf(8,:));
 axis([-pi pi 0 max(gf(1,:))])
+legend('G0(w)','G1(w)','G2(w)','G3(w)','G4(w)','G5(w)','G6(w)','G7(w)');
 title('fig 3b: Frequency Response of g0[n] through g7[n]');
 xlabel('\omega (radians/s)');
 % iii)
@@ -235,7 +244,8 @@ xlabel('\omega (radians/s)');
 %    0.0000    0.0000   -0.0000   -0.0000    0.1250   -0.0000   -0.0000    0.0000
 %    0.0000    0.0000    0.0000    0.0000   -0.0000    0.1250   -0.0000   -0.0000
 %   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.1250   -0.0000
-%   -0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000    0.1249	Table 3
+%   -0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000    0.1249
+%									  Table 3
 % iv) Please see attached figure 2c)
 % v)  Please see attached figure 2d)
 for m=1:M;
@@ -290,6 +300,7 @@ plot(omega,hf(1,:),omega,hf(2,:), ...
      omega,hf(5,:),omega,hf(6,:), ...
      omega,hf(7,:),omega,hf(8,:));
 axis([-pi pi 0 max(hf(1,:))])
+legend('H0(w)','H1(w)','H2(w)','H3(w)','H4(w)','H5(w)','H6(w)','H7(w)');
 title('fig 4a: Frequency Response of h0[n] through h7[n]');
 xlabel('\omega (radians/s)');
 % ii)  Please see attached for figure 4b)
@@ -304,6 +315,7 @@ plot(omega,gf(1,:),omega,gf(2,:), ...
      omega,gf(5,:),omega,gf(6,:), ...
      omega,gf(7,:),omega,gf(8,:));
 axis([-pi pi 0 max(gf(1,:))])
+legend('G0(w)','G1(w)','G2(w)','G3(w)','G4(w)','G5(w)','G6(w)','G7(w)');
 title('fig 4b: Frequency Response of g0[n] through g7[n]');
 xlabel('\omega (radians/s)');
 % iii)
@@ -334,7 +346,7 @@ end
 domega=2*pi/1024;
 omega=-pi:domega:pi-domega;
 yf1=abs(fftshift(fft(x,1024)));
-yf2=M*abs(fftshift(fft(y_d,1024)));
+yf2=abs(fftshift(fft(y_d,1024)));
 figure(15);
 plot(omega,yf1,'Linewidth',1)
 axis([-pi pi 0 max(yf1)])
@@ -345,3 +357,12 @@ plot(omega,yf2,'Linewidth',1)
 axis([-pi pi 0 max(yf2)])
 title('fig 4d: DTFT of output of Gaussian Random Process');
 xlabel('\omega (radians/s)');
+
+% Observations & Conclusion:
+% With N-channel PR filter banks, the original signal could be reconstructed
+% perfertly at the output of the filters. With two-tap halfband filter and
+% tree structure, the magnitudes at the output of the filters do not agree
+% with the original inputs since the two-tap filters are not constructed nicely
+% to scale down the magnited at the synthesis side. However, with a raise-
+% cosine halfband filter and tree structure, the magnitudes at the output of the
+% filters match the original input.
